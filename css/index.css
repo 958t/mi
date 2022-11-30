@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.box .header-content .logo {
+    float: left;
+    width: 65px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.box .header-content .logo img {
+    margin-left: 59px;
+    margin-top: 11px;
+
+}
+
+.box .header-content {
+    width: 1250px;
+    height: 65px;
+    /* background-color: pink; */
+    position: fixed;
+    z-index: 999;
+}
+
+.box .header-content .navitems ul li {
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+.box .header-content .navitems ul li a {
+    display: block;
+    font-size: 21px;
+    color:#7c6a95;
+}
+
+.box .top {
+    width: 42px;
+    height: 62px;
+    background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/visual/top-icon.png);
+    background-size: 100% 100%;
+    background-position: 50%;
+    position: fixed;
+    left: calc(50% + 613px);
+    bottom: 150px;
+    transform: translateX(-100%);
+    z-index: 100;
+    cursor: pointer;
+}
+/* footer */
+footer {
+    width: 100%;
+   
+    background-color: #f3f3f3;
+}
+
+footer dl {
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+footer dl dt {
+    margin-bottom: 30px;
+}
+
+footer dl dd {
+    margin-bottom: 5px;
+}
+
+footer dl dd a {
+    color: #757575;
+}
+
+footer dl dd a:hover {
+    color:#ff6900;
+}
+
+footer .phone {
+    border-left: 2px solid #e0e0e0;
+    padding-left: 100px;
+}
+
+footer .phone dt {
+    font-size: 30px;
+    color: #ff6900;
+}
+
+.copyright {
+    background-color: #f3f3f3;
+    text-align: center;
+    clear: both;
+    margin: 30px auto 0;
+    width: 100%;
+    height: 19px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+    margin-top: 30px;
+    height: 100px;
+}
